@@ -1,0 +1,22 @@
+{
+  "api": {
+    "base_url": "https://llm.martinrea.tech/v1",
+    "api_key": "dy-40SctEWOGLSPCfAN8FNagfVqZcyQkkXC",
+    "api_type": "openai",
+    "timeout": 3000
+  },
+  "models": {
+    "large": "glm-5.1",
+    "medium": "MiniMax-M2.5",
+    "small": "MiniMax-M2.5",
+    "vision": "qwen-3.5",
+    "ocr": "paddleOCR"
+  },
+  "backends": {},
+  "web_search_key": "",
+  "max_tokens": 96384,
+  "permissions": {
+    "mode": "default",
+    "rules": []
+  }
+}

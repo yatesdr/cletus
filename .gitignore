@@ -1,0 +1,26 @@
+# Binaries (root-level only, not cmd/cletus/)
+/cletus
+/cletus.exe
+/dist/
+
+# Original TypeScript source (NEVER commit)
+claude-code-main/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Config with secrets
+settings.json
+config.json
+config.yaml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Test artifacts
+*.test
+coverage.out
